@@ -12535,6 +12535,7 @@ var Main;
         Keyboard.setGame(game);
         Saving.load(game, loadingType, loadingString);
         game.postLoad();
+        Main.game = game;
     }
 })(Main || (Main = {}));
 $(document).ready(function () {
